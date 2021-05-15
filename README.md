@@ -3,7 +3,10 @@ Here you will learn how to setup HGLabors's Kitapi and FFA. First make sure that
 
 # SERVER SETUP
 First you'll need a test server to test your kits/ffa. For that you will need The
-Paper-Spigot (1.16.5) Then you will need create a
+
+**[Paper-Spigot](https://papermc.io/downloads)**
+
+ (1.16.5) Then you will need create a
 Folder on your Desktop (call it whatever you want) and drag the paper.jar into the
 Folder. Make sure too actually call the .jar paper.jar. Next you need to create a
 start.txt file in there you will paste the following text:
