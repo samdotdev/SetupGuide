@@ -85,7 +85,9 @@ java -jar BuildTools.jar --rev 1.16.5 --compile craftbukkit
 Now there should be a **CraftBukkit** folder.
 
 # COMPILING KITAPI
-`Note: You will need to do this every time you change something in the KitApi Code! Locate you KitApi folder, go inside it and open up cmd or git bash and type:`
+`Note: You will need to do this every time you change something in the KitApi Code! Locate you KitApi folder,`
+
+go inside it and open up cmd or git bash and type:
 
 - ```./gradlew generatePomFileForMavenPublication```
 then
@@ -94,20 +96,25 @@ then
 - ```./gradlew publishToMavenLocal```
 # LAST STEP
 
-Open Your Coding Environment (Intellij recommended) And open both projects so: KitApi & FFA.
+Open Your Coding Environment `(Intellij recommended)` And open both projects so: **KitApi & **FFA**.
 I would also recommend opening The projects in separate windows, so:
-File -> Open -> Select KitApi or FFa Folder -> OK -> New Window
-Go into your FFA project and navigate to the main class (FFA) navigate to line 45 and
-look for the String called SHARED_SERVER_DATA change the string to something like this:
-C:\Users\Maquzo\Desktop\Server 1.16.5\plugins\HGLaborFFA2.0 So: Serverlocation -> plugins -> HGLaborFFA2.0 NOTE: If there is no HGLaborFFA2.0 Folder look at two steps under me and do this building step first. You will get an error but simply do this step right here afterwards
-Also change Line 64 to:
-KitApi.getInstance().register(PlayerList.getInstance(), new KitSelectorImpl(), this, Paths.get(String.valueOf(getDataFolder())));
-Now you should go into the FFA and KitApi project and reload Gradle so:
-open up the gradle sidebar on the right (Gradle) and click the Reload button.
-Now go into the FFA Project, open the sidebar and locate
-Tasks -> shadow -> shadowJar
-double click shadowJar. On the left you will now see a build Folder in there, there should be a libs folder. Drag the hglabor-ffa-0.0.2.jar in your plugins Folder and run the server.
-ENJOY! If there is any open question make sure to ask in the #coding channel on the HGLabor discord server
-cheers,
 
-Maquzo
+`File -> Open -> Select KitApi or FFa Folder -> OK -> New Window`
+
+
+Now you should go into the FFA and KitApi project and reload Gradle so:
+open up the gradle sidebar on the right **(Gradle)** and click the **Reload button**.
+Now go into the FFA Project, open the sidebar and locate
+
+`Tasks -> shadow -> shadowJar`
+
+double click **shadowJar**. 
+On the left you will now see a **build** Folder in there, 
+there should be a **libs** folder. Drag the `hglabor-ffa-0.0.2.jar` in your plugins Folder and run the server.
+
+
+ENJOY! 
+If there is any open question make sure to ask in the #coding channel on the HGLabor discord server
+
+cheers,
+**Maquzo**
