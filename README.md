@@ -29,10 +29,10 @@ can now join the server.
 
 # DOWNLOADING PLUGINS
 Download this files from the Web and drag them into your plugins folder located in your Server Folder.
-**[AsyncWorldEdit](https://www.spigotmc.org/resources/asyncworldedit.327/)**
-**[LibsDisguises](https://www.spigotmc.org/resources/libs-disguises-free.81/)**
-**[ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)**
-**[WorldEdit](https://dev.bukkit.org/projects/worldedit)**
+- **[AsyncWorldEdit](https://www.spigotmc.org/resources/asyncworldedit.327/)**
+- **[LibsDisguises](https://www.spigotmc.org/resources/libs-disguises-free.81/)**
+- **[ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)**
+- **[WorldEdit](https://dev.bukkit.org/projects/worldedit)**
 
 Restart your server, and you should see that many folders have been created in your Plugins Folder.
 
