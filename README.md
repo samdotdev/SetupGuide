@@ -59,7 +59,7 @@ Now: go to your Workspace and open up any kind of a Cmd and type:
 
 Make sure to actually change `YOURNAME` to your github name.
 
-#INSTALLING BUILDTOOLS
+# INSTALLING BUILDTOOLS
 
 Create a Folder on any of your drivers except for C and call it **BuildTools**.
 Download **[BuildTools](https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar)**
@@ -70,21 +70,30 @@ Open up any kind of Cmd and Type:
 java -jar BuildTools.jar --rev 1.16.5
 ```
 
-This is going to take a while do NOT close the command line while Buildtools is
-installing!
-If buildtools is finished check your Maven local so: C:\Users\YOURNAME.m2\repository\org\bukkit\craftbukkit
-If this Folder is not there you will need to locate your BuildTools folder again open any
+**This is going to take a while do NOT close the command line while Buildtools is
+installing!**
+
+If buildtools is finished check your Maven local so: `C:\Users\YOURNAME.m2\repository\org\bukkit\craftbukkit`
+If this Folder is not there you will need to locate your **BuildTools** folder again open any
 kind of a Cmd and type:
+
+```java
 java -jar BuildTools.jar --rev 1.16.5 --compile craftbukkit
-Now there should be a CraftBukkit folder.
-COMPILING KITAPI
-Note: You will need to do this every time you change something in the KitApi Code! Locate you KitApi folder, go inside it and open up cmd or git bash and type:
-./gradlew generatePomFileForMavenPublication
+```
+
+
+Now there should be a **CraftBukkit** folder.
+
+# COMPILING KITAPI
+`Note: You will need to do this every time you change something in the KitApi Code! Locate you KitApi folder, go inside it and open up cmd or git bash and type:`
+
+- ```./gradlew generatePomFileForMavenPublication```
 then
-./gradlew publishMavenPublicationToMavenLocal
+- ```./gradlew publishMavenPublicationToMavenLocal```
 then
-./gradlew publishToMavenLocal
-LAST STEP
+- ```./gradlew publishToMavenLocal```
+# LAST STEP
+
 Open Your Coding Environment (Intellij recommended) And open both projects so: KitApi & FFA.
 I would also recommend opening The projects in separate windows, so:
 File -> Open -> Select KitApi or FFa Folder -> OK -> New Window
