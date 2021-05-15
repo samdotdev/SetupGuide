@@ -3,14 +3,17 @@ Here you will learn how to setup HGLabors's Kitapi and FFA. First make sure that
 
 # SERVER SETUP
 First you'll need a test server to test your kits/ffa. For that you will need The
+**[Paper-Spigot](https://papermc.io/downloads)** (1.16.5) 
 
-**[Paper-Spigot](https://papermc.io/downloads)**
-
- (1.16.5) Then you will need create a
-Folder on your Desktop (call it whatever you want) and drag the paper.jar into the
-Folder. Make sure too actually call the .jar paper.jar. Next you need to create a
+Then you will need create a
+Folder on your Desktop (call it whatever you want) and drag the _paper.jar_ into the
+Folder. Make sure too actually call the **.jar** **paper.jar**. Next you need to create a
 start.txt file in there you will paste the following text:
-java -Xmx1G -jar paper.jar PAUSE
+
+
+```java -Xmx1G -jar paper.jar PAUSE```
+
+
 Now save the File as a .bat (File -> save under -> SERVERFOLDER. call it start.bat and
 Data type should be: All types). Run the start.bat:
 you will see that you have to accept the eula. You can find the eula.txt file in
