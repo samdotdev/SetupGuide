@@ -96,7 +96,7 @@ then
 - ```./gradlew publishToMavenLocal```
 # LAST STEP
 
-Open Your Coding Environment `(Intellij recommended)` And open both projects so: **KitApi & **FFA**.
+Open Your Coding Environment `(Intellij recommended)` And open both projects so: **KitApi** & **FFA**.
 I would also recommend opening The projects in separate windows, so:
 
 `File -> Open -> Select KitApi or FFa Folder -> OK -> New Window`
