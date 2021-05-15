@@ -11,7 +11,9 @@ Folder. Make sure too actually call the **.jar** **paper.jar**. Next you need to
 start.txt file in there you will paste the following text:
 
 
-```java -Xmx1G -jar paper.jar PAUSE```
+```batch
+java -Xmx1G -jar paper.jar PAUSE
+```
 
 
 Now save the File as a .bat (File -> save under -> SERVERFOLDER. call it start.bat and
