@@ -1,5 +1,7 @@
 Hello fellow coder :)
-Here you will learn how to setup HGLabors's Kitapi and FFA. First make sure that you have: Java 11 or higher a working IDE such as Intellij
+Here you will learn how to setup HGLabors's Kitapi and FFA. First make sure that you have: 
+- Java 11 or higher
+- a working IDE such as Intellij
 
 # SERVER SETUP
 First you'll need a test server to test your kits/ffa. For that you will need The
