@@ -114,7 +114,7 @@ there should be a **libs** folder. Drag the `hglabor-ffa-0.0.2.jar` in your plug
 
 
 ENJOY! 
-If there is any open question make sure to ask in the #coding channel on the HGLabor discord server
+If there is any open question make sure to ask in the #coding channel on the [HGLabor Discord server](https://discord.gg/Hx2zgZRV5a)
 
 cheers,
 **Maquzo**
