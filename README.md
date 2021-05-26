@@ -87,8 +87,9 @@ java -jar BuildTools.jar --rev 1.16.5 --compile craftbukkit
 Now there should be a **CraftBukkit** folder.
 
 # COMPILING KITAPI
-`Note: You will need to do this every time you change something in the KitApi Code! Locate you KitApi folder,`
+`Note: You will need to do this every time you change something in the KitApi Code!`
 
+Locate you KitApi folder,
 go inside it and open up cmd or git bash and type:
 
 - ```./gradlew generatePomFileForMavenPublication```
