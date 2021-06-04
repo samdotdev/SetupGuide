@@ -56,8 +56,8 @@ Clone both of them to your local machine. For that you need to have
 Git installed,
 Now: go to your Workspace and open up any kind of a Cmd and type:
 
-- git clone https://github.com/YOURNAME/HGLaborFFA2.0.git 
-- git clone https://github.com/YOURNAME/HGLaborKitAPI2.0
+- `git clone https://github.com/YOURNAME/HGLaborFFA2.0.git`
+- `git clone https://github.com/YOURNAME/HGLaborKitAPI2.0`
 
 Make sure to actually change `YOURNAME` to your github name.
 
