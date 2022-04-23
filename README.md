@@ -27,7 +27,7 @@ generated in your Server folder. You can also join the server now:
 Start Minecraft, go to add server and the server address is going to be localhost You
 can now join the server.
 
-`NOTE: If there is any problem with running the start.bat, so you will get a paper error this CAN be the fault of your antivirus disable it to check if it works without it`
+`NOTE: If there is any problem with running the start.bat, so you will get a paper error this COULD be the fault of your antivirus disable it to check if it works without it`
 
 # DOWNLOADING PLUGINS
 Download this files from the Web and drag them into your plugin's folder located in your Server Folder.
