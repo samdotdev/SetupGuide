@@ -57,7 +57,7 @@ Git installed,
 Now: go to your Workspace and open up any kind of Cmd and type:
 
 - `git clone https://github.com/YOURNAME/HGLaborFFA2.0.git`
-- `git clone https://github.com/YOURNAME/HGLaborKitAPI2.0`
+- `git clone https://github.com/YOURNAME/HGLaborKitAPI2.0.git`
 
 Make sure to actually change `YOURNAME` to your GitHub name.
 
